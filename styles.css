@@ -1,9 +1,13 @@
-body {
-    background-color: antiquewhite;
+.card{
+    text-align: center;
+    margin: auto;
 }
-
+.triCap{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
 .myCarol {
-    width: 80%;
+    width: 70%;
     padding: 30px;
     margin-top: 20px;
 }
