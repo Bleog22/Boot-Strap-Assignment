@@ -1,3 +1,26 @@
-.{
-    background-color: aquamarine;
+body {
+    background-color: antiquewhite;
+}
+
+.myCarol {
+    width: 80%;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.reservation {
+    width: 50%;
+    background-color: lightgrey;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.map {
+    margin: auto;
+    margin-top: 30px;
+    width: 600px;
+    height: 450px;
+
 }
