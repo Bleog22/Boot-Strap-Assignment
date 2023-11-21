@@ -17,9 +17,9 @@
 
 <body>
     <!-- Navigation Bar for website -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
         <div class="container-fluid ">
-            <a class="navbar-brand" href="#">Gable House B&B</a>
+            <a class="navbar-brand" href="#">Old Caledonian B&B</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -31,8 +31,8 @@
                         <a class="nav-link " aria-current="page" href="index.html">Home</a>
                     </li>
 
-                
-                   <li class="nav-item dropdown">
+
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Reach Out
@@ -44,25 +44,64 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
 
-    <!-- Embedded map -->
+    <!-- Information Grid -->
 
-    <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1577.0334349614257!2d-90.77418846415358!3d37.76503021272179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d9baf535e75331%3A0x2e6fc6a6013023f5!2sOld%20Caledonian%20Bed%20%26%20Breakfast!5e0!3m2!1sen!2sus!4v1700453024335!5m2!1sen!2sus"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <div class="infoGrid">
+        <div class="map mapCol myCol">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1577.0334349614257!2d-90.77418846415358!3d37.76503021272179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d9baf535e75331%3A0x2e6fc6a6013023f5!2sOld%20Caledonian%20Bed%20%26%20Breakfast!5e0!3m2!1sen!2sus!4v1700453024335!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="infoCol myCol">
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Click for Contact Info
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Phone:<a href="tel:5737791300">(573) 779-1300</a>
+                                <br>
+                                Email:<a href="mailto:stay@oldcaledonian.com">stay@oldcaledonian.com</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
 
 
+
+
+
+    <footer class="footer">
+        &copy;Old Caledonian Bed & Breakfast
+      </footer>
 </body>
 
 </html>

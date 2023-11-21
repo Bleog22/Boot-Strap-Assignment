@@ -1,8 +1,14 @@
+body{
+    /* background-image:url(Pictures/background.jpeg);
+    background-repeat: no-repeat; */
+    height: 100%;
+}
 .navbar{
     border-radius: 10px;
     width: 95%;
     margin: auto;
     margin-top: 20px;
+  background-color:#5C755E;
 }
 .card{
     text-align: center;
@@ -13,14 +19,14 @@
     margin-top: 40px;
 }
 .myCarol {
-    width: 70%;
     padding: 30px;
     margin-top: 20px;
+    width: 70%;
 }
 
 .reservation {
     width: 50%;
-    background-color: lightgrey;
+    background-color: lightgray;
     margin: auto;
     padding: 20px;
     margin-top: 30px;
@@ -33,4 +39,51 @@
     width: 600px;
     height: 450px;
 
+}
+
+.infoGrid{
+    display: grid;
+    grid-template-areas: 
+    'map'
+    'info';
+}
+
+.mapCol{
+grid-area: map;
+}
+.infoCol{
+grid-area: info;
+margin: auto;
+margin-top: 30px;
+}
+.homeText{
+    background-color: aliceblue;
+    margin: 40px;
+    padding: 20px;
+    opacity: 0.7;
+    text-align: center;
+    border-radius: 10px;
+}
+p{
+    color: black;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #9C9F84;
+}
+.footer{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    margin-top: 250px
+}
+.btn{
+    background-color: #F7DCB4;
+}
+.search{
+    background-color: white;
+}
+.col{
+    box-shadow: 5 5 5 black;
 }
